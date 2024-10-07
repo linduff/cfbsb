@@ -4,7 +4,9 @@ from dotenv import load_dotenv
 import cfbd
 
 load_dotenv()
-cfbdKey = os.getenv("API_KEY")
+configuration = cfbd.Configuration(
+    access_token = os.environ["API_TOKEN"]
+)
 
 app = Flask(__name__)
 

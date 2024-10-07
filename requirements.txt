@@ -2,4 +2,4 @@ flask
 gunicorn
 requests
 python-dotenv
-cfbd@5.3.2a1
+cfbd==5.3.2a1
